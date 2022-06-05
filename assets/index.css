@@ -1,4 +1,24 @@
 *{
     color: aliceblue;
-    background: hsl(294, 28%, 7%);
+    background: hsl(333, 75%, 5%);
+}
+.opening {
+    margin: 80px;
+    
+}
+.opening a {
+    
+    text-decoration: none;
+    border: 5px solid hsl(333, 75%, 64%);
+    background-color: hsl(333, 75%, 64%);
+    border-radius: .7rem;
+    padding: .4rem;
+    cursor: pointer;
+}
+.opening a:hover {
+    background-color: #fff;
+    border: 5px solid #fff;
+    color: hsl(333, 75%, 5%);
+    font-weight: 800;
+
 }
