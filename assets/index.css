@@ -2,6 +2,7 @@
     color: aliceblue;
     background: hsl(333, 75%, 5%);
 }
+/* content section */
 .opening {
     margin: 80px;
     
@@ -22,3 +23,28 @@
     font-weight: 800;
 
 }
+/* conten section ends */
+
+/* nav section */
+
+ nav {
+    margin-top: 9%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    height: 50vh;
+    width: 15vh;
+    background-color: hsl(333, 100%, 20%);
+    border: 2px solid hsl(333, 75%, 8%);
+    border-radius: .9rem;
+}
+nav a {
+    text-decoration: none;
+    background-color: hsl(333, 100%, 20%);
+}
+
+
+/* nav section ends */
