@@ -1,12 +1,22 @@
 *{
     color: aliceblue;
     background: hsl(333, 75%, 5%);
+    font-family: 'Josefin Sans', sans-serif;
 }
 /* content section */
+.home {
+    display: flex;
+}
 .opening {
     margin: 80px;
+    cursor: pointer;
+    height: 100vh;
+    width: 70vh;
+    object-fit: cover;
+    margin-top: 11%;
     
 }
+
 .opening a {
     
     text-decoration: none;
